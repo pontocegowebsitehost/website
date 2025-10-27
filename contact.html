@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Contato | PontoCego Security</title>
+  <meta name="description" content="Entre em contato com a PontoCego Security para proteger seu negócio contra ameaças cibernéticas.">
+  <meta name="keywords" content="contato pontocego, solicitar orçamento, cibersegurança">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Contato | PontoCego Security">
+  <meta property="og:description" content="Estamos prontos para ajudar a proteger seu negócio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/PontoCego-full.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/PontoCego.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <img src="./assets/PontoCego.png" alt="PontoCego Security" class="loader-logo">
+  </div>
+  
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <a href="./index.html">
+        <img src="./assets/PontoCego-full.png" alt="PontoCego Security" class="nav-logo">
+      </a>
+      
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="./index.html" data-i18n="navHome">Início</a></li>
+        <li><a href="./services.html" data-i18n="navServices">Serviços</a></li>
+        <li><a href="./about.html" data-i18n="navAbout">Sobre</a></li>
+        <li><a href="./team.html" data-i18n="navTeam">Equipe</a></li>
+        <li><a href="./contact.html" data-i18n="navContact">Contato</a></li>
+        <li><button id="lang-toggle-btn" class="lang-toggle">EN</button></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Contact Section -->
+  <section style="padding-top: 150px; min-height: 100vh;">
+    <div class="section-container">
+      <h2 class="section-title" data-i18n="contactTitle">Entre em Contato</h2>
+      <p class="section-subtitle" data-i18n="contactSubtitle">Estamos prontos para ajudar a proteger seu negócio</p>
+      
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3 style="margin-bottom: 2rem; color: #3A7BC8;" data-i18n="contactFormTitle">Envie uma Mensagem</h3>
+          
+          <div class="success-message">
+            <span data-i18n="successMessage">Mensagem enviada com sucesso! Entraremos em contato em breve.</span>
+          </div>
+          
+          <!-- Replace YOUR_FORMSPREE_ENDPOINT with your actual Formspree endpoint -->
+          <form id="contact-form" action="https://formspree.io/f/mdkporkn" method="POST">
+            <div class="form-group">
+              <label for="name" data-i18n="labelName">Nome</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" data-i18n="labelEmail">E-mail</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" data-i18n="labelMessage">Mensagem</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" data-i18n="btnSend">Enviar Mensagem</button>
+          </form>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3 style="margin-bottom: 2rem; color: #3A7BC8;" data-i18n="contactInfoTitle">Informações de Contato</h3>
+          
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-item-content">
+              <h3 data-i18n="emailLabel">E-mail</h3>
+              <a href="mailto:pontocegosec@proton.me">pontocegosec@proton.me</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div class="contact-item-content">
+              <h3 data-i18n="linkedinLabel">LinkedIn</h3>
+              <a href="https://linkedin.com/company/pontocegosecurity" target="_blank">linkedin.com/company/pontocegosecurity</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <div class="contact-item-content">
+              <h3 data-i18n="instagramLabel">Instagram</h3>
+              <a href="https://instagram.com/pontocegosecurity" target="_blank">@pontocegosecurity</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-item-content">
+              <h3 data-i18n="locationLabel">Localização</h3>
+              <p data-i18n="locationText">Curitiba, Brasil</p>
+            </div>
+          </div>
+        </div>
+      
+      <!-- Google Maps -->
+      <div class="map-container">
+        <!-- Replace with your actual Google Maps embed code -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14407.094768607098!2d-49.26322618669614!3d-25.47923116567633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfb2c1b9f5bc5%3A0x132226358cce31c8!2sHauer%2C%20Curitiba%20-%20State%20of%20Paran%C3%A1%2C%20Brazil!5e0!3m2!1sen!2sus!4v1761377610917!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3 data-i18n="footerAbout">Sobre a PontoCego</h3>
+        <p data-i18n="footerAboutText">Especialistas em cibersegurança dedicados a proteger seu negócio contra ameaças digitais.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3 data-i18n="footerQuickLinks">Links Rápidos</h3>
+        <ul class="footer-links">
+          <li><a href="./index.html" data-i18n="navHome">Início</a></li>
+          <li><a href="./services.html" data-i18n="navServices">Serviços</a></li>
+          <li><a href="./about.html" data-i18n="navAbout">Sobre</a></li>
+          <li><a href="./team.html" data-i18n="navTeam">Equipe</a></li>
+          <li><a href="./contact.html" data-i18n="navContact">Contato</a></li>
+          <li><a href="./privacy.html" data-i18n="privacyPolicy">Política de Privacidade</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3 data-i18n="footerFollowUs">Siga-Nos</h3>
+        <div class="social-links">
+          <a href="https://linkedin.com/company/pontocegosecurity" target="_blank" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com/pontocegosecurity" target="_blank" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+    
+    <div class="footer-bottom">
+      <p data-i18n="footerCopyright">© 2025 PontoCego Security. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="./scripts/translations.js"></script>
+  <script src="./scripts/loader.js"></script>
+  <script src="./scripts/animations.js"></script>
+</body>
+</html>

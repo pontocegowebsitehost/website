@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Serviços | PontoCego Security</title>
+  <meta name="description" content="Conheça nossos serviços de cibersegurança: testes de penetração, avaliação de vulnerabilidades, consultoria e treinamento de consciência de phishing.">
+  <meta name="keywords" content="testes de penetração, avaliação de vulnerabilidades, consultoria cibersegurança, phishing awareness">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Serviços | PontoCego Security">
+  <meta property="og:description" content="Soluções completas de cibersegurança para proteger seu negócio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/PontoCego-full.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/PontoCego.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <img src="./assets/PontoCego.png" alt="PontoCego Security" class="loader-logo">
+  </div>
+  
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <a href="./index.html">
+        <img src="./assets/PontoCego-full.png" alt="PontoCego Security" class="nav-logo">
+      </a>
+      
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="./index.html" data-i18n="navHome">Início</a></li>
+        <li><a href="./services.html" data-i18n="navServices">Serviços</a></li>
+        <li><a href="./about.html" data-i18n="navAbout">Sobre</a></li>
+        <li><a href="./team.html" data-i18n="navTeam">Equipe</a></li>
+        <li><a href="./contact.html" data-i18n="navContact">Contato</a></li>
+        <li><button id="lang-toggle-btn" class="lang-toggle">EN</button></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Services Section -->
+  <section style="padding-top: 150px; min-height: 100vh;">
+    <div class="section-container">
+      <h2 class="section-title" data-i18n="servicesTitle">Nossos Serviços</h2>
+      <p class="section-subtitle" data-i18n="servicesSubtitle">Soluções completas de cibersegurança para proteger seu negócio</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <h3 data-i18n="service1Title">Testes de Penetração</h3>
+          <img src="./assets/pentest.jpg" alt="Penetration Testing">
+          <p data-i18n="service1Desc">Simulamos ataques reais para identificar vulnerabilidades antes que hackers maliciosos as encontrem.</p>
+          <ul style="margin-top: 1.5rem; line-height: 2;">
+            <li data-i18n="service1Bullet1">Testes de aplicações web e mobile</li>
+            <li data-i18n="service1Bullet2">Testes de infraestrutura de rede</li>
+            <li data-i18n="service1Bullet3">Testes de engenharia social</li>
+            <li data-i18n="service1Bullet4">Relatórios detalhados com recomendações</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <h3 data-i18n="service2Title">Avaliação de Vulnerabilidades</h3>
+          <img src="./assets/vulnas.jpg" alt="Vulnerability Assessment">
+          <p data-i18n="service2Desc">Análise completa dos seus sistemas para identificar, classificar e priorizar riscos de segurança.</p>
+          <ul style="margin-top: 1.5rem; line-height: 2;">
+            <li data-i18n="service2Bullet1">Varredura automatizada de vulnerabilidades</li>
+            <li data-i18n="service2Bullet2">Análise manual especializada</li>
+            <li data-i18n="service2Bullet3">Priorização baseada em risco</li>
+            <li data-i18n="service2Bullet4">Plano de remediação detalhado</li>
+            <li data-i18n="service2Bullet5">Reavaliações periódicas</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <h3 data-i18n="service3Title">Consultoria em Cibersegurança</h3>
+          <img src="./assets/webapp.jpg" alt="Cybersecurity Consulting">
+          <p data-i18n="service3Desc">Orientação estratégica especializada para fortalecer sua postura de segurança e conformidade.</p>
+          <ul style="margin-top: 1.5rem; line-height: 2;">
+            <li data-i18n="service3Bullet1">Avaliação de postura de segurança</li>
+            <li data-i18n="service3Bullet2">Desenvolvimento de políticas e procedimentos</li>
+            <li data-i18n="service3Bullet3">Conformidade regulatória (LGPD, GDPR, etc.)</li>
+            <li data-i18n="service3Bullet4">Arquitetura de segurança</li>
+            <li data-i18n="service3Bullet5">Resposta a incidentes</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <h3 data-i18n="service4Title">Plataforma de Consciência de Phishing</h3>
+          <img src="./assets/platform.jpg" alt="Phishing Awareness Platform">
+          <p data-i18n="service4Desc">Teste a consciência de segurança dos seus funcionários com simulações realistas de phishing.</p>
+          <span class="coming-soon" data-i18n="comingSoon">Em Breve</span>
+          <ul style="margin-top: 1.5rem; line-height: 2;">
+            <li data-i18n="service4Bullet1">Simulações realistas de phishing</li>
+            <li data-i18n="service4Bullet2">Campanhas customizadas por setor</li>
+            <li data-i18n="service4Bullet3">Relatórios de conscientização</li>
+            <li data-i18n="service4Bullet4">Treinamento automatizado</li>
+            <li data-i18n="service4Bullet5">Métricas de progresso</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="text-center mt-4">
+        <a href="./contact.html" class="btn btn-primary" data-i18n="btnGetQuote">Solicitar Orçamento</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3 data-i18n="footerAbout">Sobre a PontoCego</h3>
+        <p data-i18n="footerAboutText">Especialistas em cibersegurança dedicados a proteger seu negócio contra ameaças digitais.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3 data-i18n="footerQuickLinks">Links Rápidos</h3>
+        <ul class="footer-links">
+          <li><a href="./index.html" data-i18n="navHome">Início</a></li>
+          <li><a href="./services.html" data-i18n="navServices">Serviços</a></li>
+          <li><a href="./about.html" data-i18n="navAbout">Sobre</a></li>
+          <li><a href="./team.html" data-i18n="navTeam">Equipe</a></li>
+          <li><a href="./contact.html" data-i18n="navContact">Contato</a></li>
+          <li><a href="./privacy.html" data-i18n="privacyPolicy">Política de Privacidade</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3 data-i18n="footerFollowUs">Siga-Nos</h3>
+        <div class="social-links">
+          <a href="https://linkedin.com/company/pontocegosecurity" target="_blank" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com/pontocegosecurity" target="_blank" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p data-i18n="footerCopyright">© 2025 PontoCego Security. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="./scripts/translations.js"></script>
+  <script src="./scripts/loader.js"></script>
+  <script src="./scripts/animations.js"></script>
+</body>
+</html>
