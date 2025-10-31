@@ -248,6 +248,67 @@ nav.scrolled {
 }
 
 /* ============================================
+   OUR IMPACT SECTION
+   ============================================ */
+.our-impact {
+  background: linear-gradient(135deg, #0b2e4f 0%, #0c2f50 100%);
+  text-align: center;
+  color: #FAFAFA;
+  padding: 2rem 0% 3rem; /* Increased top padding *//* ensure full width */
+  box-sizing: 70%;
+  margin-top: 6rem; /* extra spacing if needed */
+}
+
+.impact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.impact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2.5rem;
+  width: 280px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(58, 123, 200, 0.3);
+}
+
+.impact-number {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #fafafa, #3a7bc8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.impact-text {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.impact-note {
+  margin-top: 4rem;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+}
+
+
+/* ============================================
    BUTTONS
    ============================================ */
 .btn {
@@ -1026,4 +1087,38 @@ footer {
     width: 32px;
     height: 4px;
   }
+}
+
+/* ============================================
+ WHATSAPP FLOATING BUTTON
+ ============================================ */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: all var(--transition-normal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.5);
+    transform: scale(1.1);
+}
+
+.whatsapp-float svg {
+    width: 35px;
+    height: 35px;
 }
