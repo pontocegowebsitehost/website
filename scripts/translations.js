@@ -21,43 +21,48 @@ const translations = {
     
     // Services Section
     servicesTitle: "Nossos Serviços",
-    servicesSubtitle: "Soluções completas de cibersegurança para proteger seu negócio",
-    
+    servicesSubtitle: "Soluções de cibersegurança abrangentes para proteger o seu negócio",
+
     service1Title: "Pentest",
-    service1Desc: "Realizamos simulações de ataques em ambientes controlados e, quando necessário, em produção, para identificar vulnerabilidades antes que possam ser exploradas por agentes maliciosos, garantindo a segurança dos sistemas sem comprometer operações críticas.",
-    
+    service1Desc: "Simulamos ataques cibernéticos reais para identificar vulnerabilidades antes que agentes maliciosos possam explorá-las. Cada projeto segue uma metodologia estruturada e alinhada a frameworks modernos, garantindo uma cobertura completa da sua superfície de ataque.",
+    service1Desc2: "Nossos testes de penetração combinam reconhecimento automatizado, exploração manual e análise pós-exploração para avaliar não apenas como um invasor poderia obter acesso, mas também o impacto potencial para o negócio caso isso ocorra. Os testes podem ser conduzidos em ambientes controlados ou em sistemas de produção, sob rigorosas medidas de segurança para evitar interrupções.",
+
     service2Title: "Avaliação de Vulnerabilidades",
-    service2Desc: "Análise abrangente de sistemas, redes e aplicações para identificar vulnerabilidades, avaliar impactos potenciais, classificar riscos por criticidade e priorizar ações corretivas, fornecendo uma visão detalhada da postura de segurança da organização.",
-    
+    service2Desc: "Nossas avaliações de vulnerabilidades oferecem uma visão completa da postura de segurança da sua organização, identificando fraquezas em sistemas, redes e aplicações. Utilizamos scanners líderes de mercado (como Nessus, OpenVAS, Nmap e Nikto), combinados com validação manual, para eliminar falsos positivos e garantir resultados precisos e acionáveis.",
+    service2Desc2: "Cada vulnerabilidade é analisada com base em sua pontuação CVSS, grau de explorabilidade e contexto de negócio, permitindo priorizar as correções de forma eficiente e orientada ao risco.",
+
     service3Title: "Consultoria em Cibersegurança",
-    service3Desc: "Orientação estratégica especializada para fortalecer a postura de segurança da sua empresa, mitigar riscos cibernéticos e assegurar conformidade com padrões e regulamentações conforme suas necessidades.",
-    
-    service4Title: "Plataforma de Consciência de Phishing",
-    service4Desc: "Teste a conscientização em segurança dos seus funcionários por meio de simulações realistas de phishing e ofereça treinamentos direcionados para fortalecer a defesa humana contra ataques cibernéticos.",
-    comingSoon: "Em Breve",
-    
-    service1Bullet1: "Testes de aplicações web e mobile",
-    service1Bullet2: "Testes de infraestrutura de rede",
-    service1Bullet3: "Testes de engenharia social",
-    service1Bullet4: "Relatórios detalhados com recomendações",
-    
-    service2Bullet1: "Varredura automatizada de vulnerabilidades",
-    service2Bullet2: "Análise manual especializada",
-    service2Bullet3: "Priorização baseada em risco",
-    service2Bullet4: "Plano de remediação detalhado",
-    service2Bullet5: "Reavaliações periódicas",
-    
-    service3Bullet1: "Avaliação de postura de segurança",
-    service3Bullet2: "Desenvolvimento de políticas e procedimentos",
-    service3Bullet3: "Conformidade regulatória (LGPD, GDPR, etc.)",
-    service3Bullet4: "Arquitetura de segurança",
-    service3Bullet5: "Resposta a incidentes",
-    
-    service4Bullet1: "Simulações realistas de phishing",
-    service4Bullet2: "Campanhas customizadas por setor",
-    service4Bullet3: "Relatórios de conscientização",
-    service4Bullet4: "Treinamento automatizado",
-    service4Bullet5: "Métricas de progresso",
+    service3Desc: "Nossos serviços de consultoria oferecem expertise estratégica e técnica para ajudar organizações a projetar, implementar e manter programas de cibersegurança robustos. Alinhamos suas operações a frameworks reconhecidos internacionalmente, como NIST CSF, ISO 27001 e CIS Controls, garantindo conformidade e resiliência.",
+    service3Desc2: "Seja para estabelecer políticas de governança, aprimorar sua arquitetura de segurança ou se preparar para auditorias, fornecemos orientações baseadas em experiência prática e profundo conhecimento técnico.",
+
+    service4Title: "Plataforma de Conscientização sobre Phishing",
+    service4Desc: "Os usuários continuam sendo um dos pontos de entrada mais explorados em ataques cibernéticos. Nossa próxima Plataforma de Conscientização sobre Phishing foi desenvolvida para testar, medir e aprimorar a resiliência dos colaboradores por meio de campanhas de phishing controladas, módulos de aprendizado adaptativo e análises detalhadas.",
+    service4Desc2: "Com o uso de templates de e-mail realistas, simulações de payloads e acompanhamento comportamental, as organizações poderão avaliar como seus colaboradores reagem a tentativas de engenharia social e oferecer treinamentos personalizados em tempo real para corrigir vulnerabilidades humanas.",
+    comingSoon: "Em breve",
+
+    service1Bullet1: "Testes de penetração em aplicações web (OWASP Top 10, testes de API, falhas de autenticação e autorização)",
+    service1Bullet2: "Testes de penetração em redes e infraestrutura (interna/externa, firewalls, VPNs e redes sem fio)",
+    service1Bullet3: "Avaliação de ambientes em nuvem (configurações e permissões de identidade em AWS, Azure e GCP)",
+    service1Bullet4: "Relatórios técnicos e executivos detalhados com evidências de exploração, classificação de riscos e plano de correção priorizado",
+
+    service2Bullet1: "Varredura automatizada de infraestrutura, hosts e aplicações",
+    service2Bullet2: "Verificação manual de vulnerabilidades críticas",
+    service2Bullet3: "Priorização baseada em risco e validação de explorabilidade",
+    service2Bullet4: "Plano de correção detalhado com ações práticas",
+    service2Bullet5: "Reavaliações periódicas para medir o progresso e manter a melhoria contínua",
+
+    service3Bullet1: "Avaliação de postura de segurança e análise de riscos",
+    service3Bullet2: "Desenvolvimento de políticas, procedimentos e estruturas de governança em cibersegurança",
+    service3Bullet3: "Conformidade regulatória e preparação para auditorias (LGPD e GDPR)",
+    service3Bullet4: "Design e fortalecimento de arquitetura de segurança (segmentação de rede, controle de acesso, zero trust)",
+    service3Bullet5: "Planejamento e simulação de resposta a incidentes, exercícios de mesa e prontidão forense",
+
+    service4Bullet1: "Simulações de phishing realistas e baseadas em dados, com payloads personalizados",
+    service4Bullet2: "Campanhas segmentadas por departamento, nível de risco ou função",
+    service4Bullet3: "Relatórios detalhados de conscientização e comportamento",
+    service4Bullet4: "Plataforma de treinamentos automatizados em vídeo",
+    service4Bullet5: "Integração com sistemas de e-mail corporativos",
+
     
     // Why Choose Us
     whyTitle: "Por Que Escolher a PontoCego",
@@ -71,25 +76,34 @@ const translations = {
     
     why3Title: "Resultados Mensuráveis",
     why3Desc: "Entregamos análises detalhadas, relatórios técnicos e recomendações práticas que podem ser implementadas imediatamente. Nosso foco é gerar impacto real na segurança da sua empresa, ajudando a reduzir riscos cibernéticos, aumentar a resiliência dos sistemas e oferecer confiança a todos.",
+
+    // Our Impact Section
+    impactTitle: "Nosso Impacto",
+    impactSubtitle: "Resultados reais que demonstram nosso compromisso com a segurança.",
+    impactVulns: "20+ vulnerabilidades remediadas",
+    impactBreaches: "0 violações pós-engajamento",
+    impactContinents: "Clientes em 3 continentes",
     
     // About Page
     aboutTitle: "Sobre Nós",
     aboutSubtitle: "Conheça a PontoCego Security",
     
     whoWeAreTitle: "Quem Somos",
-    whoWeAreText1: "A PontoCego Security é uma empresa brasileira especializada em cibersegurança, dedicada a proteger organizações de todos os tamanhos contra ameaças digitais cada vez mais sofisticadas. Com foco em pequenas e médias empresas, oferecemos serviços remotos de alta qualidade, permitindo que clientes ao redor do mundo reforcem sua segurança sem barreiras geográficas.",
-    whoWeAreText2: "Estamos comprometidos em eliminar os 'pontos cegos' na segurança digital das empresas. Nossa missão vai além de identificar vulnerabilidades: buscamos oferecer certeza de segurança e funcionalidade para diversos tipos de demandas, desde revisão de código para garantir a segurança de aplicações, testes de penetração e avaliação de novos softwares prestes a serem lançados, até orientação estratégica com boas práticas para manter a empresa protegida digitalmente em longo prazo.",
+    whoWeAreText1: "A PontoCego Security é uma empresa brasileira de cibersegurança dedicada a ajudar organizações de todos os portes a construírem ambientes digitais mais seguros e resilientes. Somos especializados em proteger pequenas e médias empresas em todo o mundo, oferecendo serviços remotos de cibersegurança de alta qualidade, acessíveis e que eliminam as barreiras de distância e complexidade.",
+    whoWeAreText2: "Fundada por profissionais apaixonados por eliminar os “pontos cegos” que deixam as empresas vulneráveis, a PontoCego Security foi criada para reduzir a crescente diferença de segurança entre grandes corporações e organizações menores. Nossa crença é simples: toda empresa merece proteção em nível corporativo, independentemente de seu tamanho, orçamento ou localização.",
+    whoWeAreText3: "Oferecemos soluções práticas e orientadas por dados que combinam automação avançada, experiência manual e visão estratégica. Desde testes de intrusão (pentests) e avaliações de vulnerabilidades até revisão de código seguro e consultoria, nossos serviços são projetados para ajudar empresas a identificar, compreender e eliminar riscos antes que possam ser explorados. Nossa equipe trabalha de acordo com frameworks reconhecidos pelo setor — OWASP, MITRE ATT&CK e NIST — garantindo consistência, precisão e alinhamento com padrões globais em tudo o que fazemos. Juntos, unimos expertise técnica, experiência prática e uma missão compartilhada de tornar a cibersegurança mais acessível, transparente e eficaz.",
     
     missionTitle: "Nossa Missão",
-    missionText: "Proporcionar soluções de cibersegurança de classe mundial que capacitem pequenas e médias empresas a proteger seus ativos digitais, minimizar riscos cibernéticos e operar com confiança em um cenário digital global, cada vez mais dinâmico e ameaçador.",
+    missionText: "Nossa missão é oferecer soluções de cibersegurança de classe mundial que capacitem pequenas e médias empresas a proteger seus ativos digitais, minimizar riscos cibernéticos e operar com confiança em um mundo digital em constante evolução.",
+    missionText2: "Buscamos democratizar a cibersegurança, tornando a proteção avançada e a orientação estratégica acessíveis a qualquer empresa, não apenas àquelas que possuem grandes equipes internas de TI. Por meio de pesquisa contínua, colaboração e aprimoramento constante, ajudamos organizações a fortalecer suas defesas, atender a requisitos de conformidade e construir resiliência duradoura contra ameaças modernas.",
     
     valuesTitle: "Nossos Valores",
     value1Title: "Excelência",
-    value1Desc: "Comprometimento com os mais altos padrões de qualidade e rigor técnico em todos os nossos serviços, entregando resultados confiáveis e mensuráveis.",
+    value1Desc: "Somos movidos pela precisão técnica, dedicação e compromisso com resultados. Cada projeto é conduzido com o mesmo rigor e atenção, seja para uma startup local ou para um cliente internacional. Refinamos constantemente nossas metodologias para garantir exatidão, qualidade e melhorias mensuráveis na postura de segurança de nossos clientes.",
     value2Title: "Integridade",
-    value2Desc: "Ética, transparência e responsabilidade em todas as nossas interações, garantindo confiança e credibilidade aos nossos clientes, independentemente de sua localização.",
+    value2Desc: "A confiança está no centro do nosso trabalho. Atuamos com honestidade, transparência e responsabilidade em todos os projetos, protegendo não apenas sistemas, mas também relacionamentos e reputações. Valorizamos a comunicação aberta e a conduta ética como princípios inegociáveis.",
     value3Title: "Inovação",
-    value3Desc: "Busca contínua por novas tecnologias, metodologias e práticas avançadas de cibersegurança para proteger nossos clientes e antecipar ameaças emergentes.",
+    value3Desc: "A cibersegurança nunca para e nós também não. Nossa equipe pesquisa continuamente novas técnicas de ataque, ferramentas e tendências para se manter à frente das ameaças. Investimos em educação contínua e desenvolvimento profissional, possuindo e buscando certificações como CEH, eJPT e HTB CPTS, garantindo que nossa expertise permaneça na vanguarda da cibersegurança moderna.",
     
     btnMeetTeam: "Conheça Nossa Equipe",
     
@@ -200,40 +214,44 @@ const translations = {
     servicesSubtitle: "Comprehensive cybersecurity solutions to protect your business",
 
     service1Title: "Penetration Testing",
-    service1Desc: "We conduct simulated attacks in controlled environments and, when necessary, in production systems to identify vulnerabilities before they can be exploited by malicious actors — ensuring system security without compromising critical operations.",
+    service1Desc: "We simulate real-world cyberattacks to uncover vulnerabilities before threat actors can exploit them. Each engagement follows a structured methodology aligned with modern frameworks, ensuring comprehensive coverage of your attack surface.",
+    service1Desc2: "Our penetration tests combine automated reconnaissance, manual exploitation, and post-exploitation analysis to assess not only how attackers could gain access, but also the potential business impact if they succeed. Testing can be conducted in controlled environments or production systems under strict safety measures to avoid disruption.",
 
     service2Title: "Vulnerability Assessment",
-    service2Desc: "Comprehensive analysis of systems, networks, and applications to identify vulnerabilities, assess potential impacts, classify risks by severity, and prioritize corrective actions — providing a detailed view of your organization's security posture.",
+    service2Desc: "Our vulnerability assessments provide a complete snapshot of your organization’s security posture, identifying weaknesses across systems, networks, and applications. We leverage industry-leading scanners (e.g., Nessus, OpenVAS, Nmap, Nikto) combined with manual validation to eliminate false positives and ensure actionable insights.",
+    service2Desc2: "Each vulnerability is analyzed based on its CVSS score, exploitability, and business context, allowing you to prioritize remediation where it matters most.",
 
     service3Title: "Cybersecurity Consulting",
-    service3Desc: "Specialized strategic guidance to strengthen your company's security posture, mitigate cyber risks, and ensure compliance with standards and regulations tailored to your organization's needs.",
+    service3Desc: "Our consulting services deliver strategic and technical expertise to help organizations design, implement, and maintain robust cybersecurity programs. We align your operations with internationally recognized frameworks such as NIST CSF, ISO 27001, and CIS Controls, ensuring both compliance and resilience.",
+    service3Desc2: "Whether you’re establishing governance policies, enhancing your security architecture, or preparing for audits, we provide guidance backed by hands-on experience and deep technical understanding.",
 
     service4Title: "Phishing Awareness Platform",
-    service4Desc: "Test your employees' security awareness through realistic phishing simulations and provide targeted training to strengthen human defenses against cyberattacks.",
+    service4Desc: "Humans remain one of the most exploited entry points in cyberattacks. Our upcoming Phishing Awareness Platform is designed to test, measure, and improve user resilience through controlled phishing campaigns, adaptive learning modules, and detailed analytics.",
+    service4Desc2: "Using realistic email templates, payload simulations, and behavioral tracking, organizations can evaluate how employees react to social engineering attempts and deliver personalized micro-trainings to address weaknesses in real time.",
     comingSoon: "Coming Soon",
 
-    service1Bullet1: "Web and mobile application testing",
-    service1Bullet2: "Network infrastructure testing",
-    service1Bullet3: "Social engineering testing",
-    service1Bullet4: "Detailed reports with recommendations",
+    service1Bullet1: "Web application penetration testing (OWASP Top 10, API testing, authentication, authorization flaws)",
+    service1Bullet2: "Network and infrastructure penetration testing (internal/external, firewalls, VPNs, and wireless)",
+    service1Bullet3: "Cloud environment assessments (AWS, Azure, GCP configurations and identity permissions)",
+    service1Bullet4: "Detailed technical and executive reporting with exploitation evidence, risk ratings, and prioritized remediation",
 
-    service2Bullet1: "Automated vulnerability scanning",
-    service2Bullet2: "Specialized manual analysis",
-    service2Bullet3: "Risk-based prioritization",
-    service2Bullet4: "Detailed remediation plan",
-    service2Bullet5: "Periodic reassessments",
+    service2Bullet1: "Automated scanning of infrastructure, hosts, and applications",
+    service2Bullet2: "Manual verification of high-impact vulnerabilities",
+    service2Bullet3: "Risk-based prioritization and exploitability validation",
+    service2Bullet4: "Comprehensive remediation plan with actionable steps",
+    service2Bullet5: "Periodic reassessments to measure progress and maintain continuous improvement",
 
-    service3Bullet1: "Security posture assessment",
-    service3Bullet2: "Policy and procedure development",
-    service3Bullet3: "Regulatory compliance (LGPD, GDPR, etc.)",
-    service3Bullet4: "Security architecture design",
-    service3Bullet5: "Incident response",
+    service3Bullet1: "Security posture and risk assessment",
+    service3Bullet2: "Development of cybersecurity policies, procedures, and governance frameworks",
+    service3Bullet3: "Regulatory compliance and audit preparation (LGPD and GDPR)",
+    service3Bullet4: "Security architecture design and hardening (network segmentation, access control, zero trust)",
+    service3Bullet5: "Incident response planning, tabletop exercises, and forensic readiness",
 
-    service4Bullet1: "Realistic phishing simulations",
-    service4Bullet2: "Industry-tailored campaigns",
-    service4Bullet3: "Awareness reporting",
-    service4Bullet4: "Automated training",
-    service4Bullet5: "Progress metrics",
+    service4Bullet1: "Realistic, data-driven phishing simulations with custom payloads",
+    service4Bullet2: "Campaigns segmented by department, risk level, or role",
+    service4Bullet3: "Comprehensive awareness and behavioral reporting",
+    service4Bullet4: "Automated video training platform",
+    service4Bullet5: "Integration with email systems",
     
     // Why Choose Us
     whyTitle: "Why Choose PontoCego",
@@ -248,24 +266,33 @@ const translations = {
     why3Title: "Measurable Results",
     why3Desc: "We deliver detailed analyses, technical reports, and actionable recommendations that can be implemented immediately. Our focus is to generate real impact on your company's security, helping reduce cyber risks, increase system resilience, and provide confidence to all stakeholders.",
 
+    // Our Impact Section
+    impactTitle: "Our Impact",
+    impactSubtitle: "Real results that reflect our commitment to security.",
+    impactVulns: "20+ vulnerabilities remediated",
+    impactBreaches: "0 breaches post-engagement",
+    impactContinents: "Clients across 3 continents",
+
     // About Page
     aboutTitle: "About Us",
     aboutSubtitle: "Get to know PontoCego Security",
     
     whoWeAreTitle: "Who We Are",
-    whoWeAreText1: "PontoCego Security is a Brazilian cybersecurity company dedicated to protecting organizations of all sizes from increasingly sophisticated digital threats. With a focus on small and medium-sized businesses, we offer high-quality remote services, enabling clients around the world to strengthen their security without geographical barriers.",
-    whoWeAreText2: "We are committed to eliminating 'blind spots' in companies' digital security. Our mission goes beyond identifying vulnerabilities: we strive to provide assurance of security and functionality for a wide range of needs, from code reviews to ensure application security, penetration testing and evaluation of new software about to be launched, to strategic guidance with best practices to keep the company digitally protected in the long term.",
+    whoWeAreText1: "PontoCego Security is a Brazilian cybersecurity company dedicated to helping organizations of all sizes build safer, more resilient digital environments. We specialize in protecting small and medium-sized businesses all over the world by providing high-quality, affordable, and remote cybersecurity services that remove the barriers of distance and complexity.",
+    whoWeAreText2: "Founded by professionals passionate about eliminating the “blind spots” that leave businesses vulnerable, PontoCego Security was created to close the growing security gap between large corporations and smaller organizations. Our belief is simple: every company deserves enterprise-level protection, regardless of its size, budget, or location.",
+    whoWeAreText3: "We deliver practical and data-driven solutions that combine advanced automation, manual expertise, and strategic insight. From penetration testing and vulnerability assessments to secure code review and consulting, our services are designed to help companies identify, understand, and eliminate risks before attackers can exploit them. Our team works according to industry-recognized frameworks — OWASP, MITRE ATT&CK, and NIST — to ensure consistency, precision, and global standards in everything we do. Together, they combine technical expertise, real-world experience, and a shared mission to make cybersecurity more accessible, transparent, and effective",
     
     missionTitle: "Our Mission",
-    missionText: "To provide world-class cybersecurity solutions that empower small and medium-sized businesses to protect their digital assets, minimize cyber risks, and operate confidently in an increasingly dynamic and global digital landscape.",
+    missionText: "Our mission is to provide world-class cybersecurity solutions that empower small and medium-sized businesses to protect their digital assets, minimize cyber risks, and operate confidently in a constantly evolving digital world.",
+    missionText2: "We strive to democratize cybersecurity, making advanced protection and strategic guidance available to every business, not just those with large internal IT departments. Through continuous research, collaboration, and improvement, we help organizations strengthen their defenses, meet compliance requirements, and build lasting resilience against modern threats.",
     
     valuesTitle: "Our Values",
     value1Title: "Excellence",
-    value1Desc: "Commitment to the highest standards of quality and technical rigor in all our services, delivering reliable and measurable results.",
+    value1Desc: "We are driven by technical precision, dedication, and a commitment to results. Every engagement is handled with the same level of rigor and care, whether for a local startup or an international client. We continuously refine our methodologies to ensure accuracy, quality, and measurable improvement in our clients’ security posture.",
     value2Title: "Integrity",
-    value2Desc: "Ethics, transparency, and accountability in all interactions, ensuring trust and credibility for our clients, regardless of location.",
+    value2Desc: "Trust is at the heart of our work. We act with honesty, transparency, and accountability in every project, safeguarding not only systems but also relationships and reputations. We value open communication and ethical conduct as non-negotiable principles.",
     value3Title: "Innovation",
-    value3Desc: "Continuous pursuit of new technologies, methodologies, and advanced cybersecurity practices to protect our clients and anticipate emerging threats.",
+    value3Desc: "Cybersecurity never stands still, and neither do we. Our team continually researches emerging attack techniques, tools, and trends to stay ahead of the curve. We invest in ongoing education and professional development, pursuing and holding certifications such as CEH, eJPT, and HTB CPTS, ensuring our expertise remains at the forefront of modern cybersecurity.",
     
     btnMeetTeam: "Meet Our Team",
     
